@@ -22,7 +22,7 @@
 
 ## Theme 
 
-Original theme : [bootstrap-bp-hugo-startpage)](https://github.com/spech66/bootstrap-bp-hugo-startpage)
+Original theme : [bootstrap-bp-hugo-startpage](https://github.com/spech66/bootstrap-bp-hugo-startpage)
 
 ## Author
 
