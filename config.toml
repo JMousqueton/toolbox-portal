@@ -41,14 +41,14 @@ paginate = 5
   name = "Julien Mousqueton"
 
 [params]
-  description = "Text about the site"
+  description = "Startup page for all my cyber security projects"
   #images = ["logo.jpg"]
   startPageColumns = false
   welcomeText = "Mousqueton Cyber Security"
 
 [[params.searchEngines]]
   name = "Google"
-  activated = false
+  activated = true
   url = "https://www.google.com/search"
 
 [[params.searchEngines]]
