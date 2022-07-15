@@ -1,0 +1,25 @@
+---
+- group: Ransomware
+  items:
+    - title: Ransomwatch 
+      url: https://ransomwatch.mousqueton.io
+      icon: fab fa-sack-dollar
+    - title: Ransomposts
+      url: https://ransomposts.mousqueton.io
+      icon: fab fa-sack-dollar
+- group: Information 
+  items: 
+    - title: Cyber-News
+      url: https://www.cyber-news.fr
+      icon: fab fa-user-secret
+    - title: Cyber-Owl
+      url: https:/cyberowl.mousqueton.io
+      icon: fab fa-binoculars
+    - title: Github CVE Monitor
+      url: https://cve-monitor.mousqueton.io/
+      icon: fab fa-bug
+- group: Mail 
+  items:
+    - title: Analyse Header
+      url: https://mha.mousqueton.io
+      icon: fab fa-envelope-open-text

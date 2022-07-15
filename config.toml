@@ -1,0 +1,70 @@
+baseURL = 'https://home.mousqueton.io/'
+languageCode = 'en-us'
+title = 'Home page for Mousqueton Cyber Securirty'
+
+theme = "starter"
+
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
+# Make .Summary and .WordCount behave correctly for CJK languages
+hasCJKLanguage = true
+PygmentsCodeFences = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+
+
+# googleAnalytics = "UA-123-45"
+copyright = "Julien Mousqueton"
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[Author]  
+  name = "Julien Mousqueton"
+
+[params]
+  description = "Text about the site"
+  #images = ["logo.jpg"]
+  startPageColumns = false
+  welcomeText = "Mousqueton CyberSecurity"
+
+[[params.searchEngines]]
+  name = "Google"
+  activated = false
+  url = "https://www.google.com/search"
+
+[[params.searchEngines]]
+  name = "DuckDuckGo"
+  activated = false
+  url = "https://duckduckgo.com/"
+
+[[params.searchEngines]]
+  name = "Bing"
+  activated = false
+  url = "https://www.bing.com/search"
+
+[[params.searchEngines]]
+  name = "Baidu"
+  activated = false
+  url = "https://baidu.com/s"
+  searchkey = "wd"
+
+[taxonomies]
