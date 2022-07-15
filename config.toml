@@ -44,7 +44,7 @@ paginate = 5
   description = "Text about the site"
   #images = ["logo.jpg"]
   startPageColumns = false
-  welcomeText = "Mousqueton CyberSecurity"
+  welcomeText = "Mousqueton Cyber Security"
 
 [[params.searchEngines]]
   name = "Google"
