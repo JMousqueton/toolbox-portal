@@ -68,3 +68,8 @@ paginate = 5
   searchkey = "wd"
 
 [taxonomies]
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2019-2022 Julien Mousqueton[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = false
