@@ -1,6 +1,6 @@
 baseURL = 'https://toolbox.mousqueton.io/'
 languageCode = 'en-us'
-title = 'Home page for Mousqueton Cyber Securirty'
+title = '🧰 Cyber Security toolbox by Julien Mousqueton'
 
 theme = "starter"
 
@@ -41,10 +41,10 @@ paginate = 5
   name = "Julien Mousqueton"
 
 [params]
-  description = "Startup page for all my cyber security projects"
+  description = "🧰 Cyber Security toolbox by Julien Mousqueton"
   #images = ["logo.jpg"]
   startPageColumns = false
-  welcomeText = "Mousqueton Cyber Security"
+  welcomeText = "🧰  Cyber Security toolbox"
 
 [[params.searchEngines]]
   name = "Google"
@@ -71,5 +71,5 @@ paginate = 5
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2019-2022 Julien Mousqueton[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
-  poweredBy = false
+  copyright = "© 2019-2022 [Julien](https://www.julien.io) [Mousqueton](https://www.mousqueton.io)."
+  poweredBy = true

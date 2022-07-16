@@ -16,8 +16,8 @@
         "publisher": "{{ range .Site.Author }}{{ . }}{{ end }}",
         "accountablePerson": "{{ range .Site.Author }}{{ . }}{{ end }}",
         "copyrightHolder": "{{ range .Site.Author }}{{ . }}{{ end }}",
-        "copyrightYear": "{{ .Date.Format "2006" }}",
-        "datePublished": "{{ .Date.UTC.Format "2006-01-02T15:04:05Z" | safeHTML }}",
+        "copyrightYear": "{{ dateFormat "2006" now }}",
+        "datePublished": "{{ now.Format "2006-01-02T15:04:05Z" | safeHTML }}",
         {{ with .Lastmod -}}
         "dateModified": "{{ .UTC.Format "2006-01-02T15:04:05Z" | safeHTML }}",
         {{- end }}
