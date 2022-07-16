@@ -44,7 +44,7 @@ paginate = 5
   description = "🧰 Cyber Security toolbox by Julien Mousqueton"
   #images = ["logo.jpg"]
   startPageColumns = false
-  welcomeText = "🧰  Cyber Security toolbox"
+  welcomeText = "🧰  My Cyber Security toolbox"
 
 [[params.searchEngines]]
   name = "Google"
